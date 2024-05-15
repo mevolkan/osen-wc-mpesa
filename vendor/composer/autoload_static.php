@@ -27,12 +27,6 @@ class ComposerStaticInit801684042b62ff3c3c29b0fc243abaae
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Osen\\Woocommerce\\Admin\\Menu' => __DIR__ . '/../..' . '/src/Admin/Menu.php',
-        'Osen\\Woocommerce\\Initialize' => __DIR__ . '/../..' . '/src/Initialize.php',
-        'Osen\\Woocommerce\\Mpesa\\C2B' => __DIR__ . '/../..' . '/src/Mpesa/C2B.php',
-        'Osen\\Woocommerce\\Mpesa\\STK' => __DIR__ . '/../..' . '/src/Mpesa/STK.php',
-        'Osen\\Woocommerce\\Post\\Metaboxes\\C2B' => __DIR__ . '/../..' . '/src/Post/Metaboxes/C2B.php',
-        'Osen\\Woocommerce\\Utilities' => __DIR__ . '/../..' . '/src/Utilities.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
